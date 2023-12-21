@@ -59,6 +59,9 @@ ln -s libncurses.so.5 libncurses.so
 ln -s libtinfow.so.5 libtinfo.so.5
 ln -s libtinfo.so.5 libtinfo.so
 
+ln -s libncursesw.so.6 libncurses.so.6
+ln -s libtinfow.so.6 libtinfo.so.6
+
 echo "Reducing '$BUNDLE_NAME' size."
 set +e
 strip -g $DEST_DIR/usr/bin/*
